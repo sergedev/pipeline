@@ -13,5 +13,5 @@ changeProject(DslContext.projectId) {
     check(description == "potato") {
         "Unexpected description: '$description'"
     }
-    description = "test"
+    description = ""
 }
