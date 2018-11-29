@@ -15,7 +15,7 @@ changeProject(DslContext.projectId) {
             password("abc1234", "credentialsJSON:f1061b5c-1a60-4514-815e-4405ac24f063", display = ParameterDisplay.HIDDEN)
         }
         update {
-            password("abc1234", "credentialsJSON:f1061b5c-1a60-4514-815e-4405ac24f063")
+            text("abc1234", "secret123", allowEmpty = true)
         }
     }
 }
