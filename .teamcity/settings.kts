@@ -29,6 +29,11 @@ version = "2018.1"
 project {
     description = "potato123"
     buildType(Build)
+
+    params {
+        password("abc123", "credentialsJSON:a6387565-276a-4ba1-bca3-a9dc02b9f5cb", display = ParameterDisplay.HIDDEN)
+        password("abc1234", "credentialsJSON:f1061b5c-1a60-4514-815e-4405ac24f063", display = ParameterDisplay.HIDDEN)
+    }
 }
 
 object Build : BuildType({
